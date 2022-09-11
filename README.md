@@ -1,7 +1,7 @@
-# PersonalWebsite
+# personal-website
 ## Installation/Usage
 
-This app has been deployed at https://shrimeichock.github.io/PersonalWebsite/
+This app has been deployed at https://shrimeichock.github.io/personal-website/
 
 Alternatively, in the project directory, you can run:
 
