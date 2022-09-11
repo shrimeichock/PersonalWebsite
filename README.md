@@ -15,3 +15,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+##  Resources
+
+The initial files for this application were provided by [vanessavmac](https://github.com/vanessavmac) as part of a workshop for [Technova](https://www.itstechnova.org/), a Women+ in Tech hackathon. 
