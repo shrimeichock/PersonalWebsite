@@ -1,0 +1,27 @@
+/* Apply global styles here */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+h1 {
+  font-size: 70px;
+  margin-top: 5%;
+}
+
+h2 {
+  color: hsl(234, 12%, 34%);
+  font-weight: 700;
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 0px 30px 40px -20px hsl(229, 6%, 66%);
+  padding: 30px;
+  margin: 20px;  
+}
+
+.cyan {
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
