@@ -1,6 +1,5 @@
 import Socials from './Socials';
 import AboutMe from './AboutMe';
-import ProfilePic from '../assets/profile-pic.jpeg';
 
 function LandingPage() {
 
