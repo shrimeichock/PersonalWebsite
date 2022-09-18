@@ -25,3 +25,17 @@ h2 {
 .cyan {
   border-top: 3px solid hsl(180, 62%, 55%);
 }
+
+.divStyle {
+  margin-top: 10%;
+  margin-bottom: 25%;
+}
+
+.emoji-area {
+  font-size: 10em;
+  /* margin-left: 2%; */
+  border-radius: 5px;
+  /* padding: 50px 0; */
+  height: 250px;
+  /* float: right; */
+}

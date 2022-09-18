@@ -3,22 +3,27 @@ import AboutMe from './AboutMe';
 import ProfilePic from '../assets/profile-pic.jpeg';
 
 function LandingPage() {
-  const divStyle = {
-    marginTop: '25%',
-    marginBottom: '25%'
-  };
-  // Style react component using JS object and JSX (notice the camel case properties!)
-  const imageStyle = {
-    marginLeft: '10%',
-    borderRadius: '10px',
-    height: '250px',
-    float: 'right',
-  };
+
+//   function setEmoji(emoji) {
+//     const emojiField = document.querySelector('.emoji-area');
+//     emojiField.innerHTML = emoji;
+// }
+
+//   function getRandomEmoji() {
+//     fetch('https://ranmoji.herokuapp.com/emojis/api/v.1.0/')
+//       .then(response => {
+//         response.json().then(data => {
+//           setEmoji(data.emoji)
+//         })
+//       });
+//   }
+
+  const getEmoji = require('get-random-emoji')
 
   return (
-    <div style={divStyle}>
-      <img src={ProfilePic} alt="Profile" style={imageStyle} />
+    <div className="divStyle">
       <div>
+        <div className="emoji-area">{getEmoji()}</div>
         <AboutMe />
         <Socials />
       </div>
