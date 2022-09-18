@@ -12,7 +12,8 @@ function ExperiencePage() {
           jobTitle={element.title}
           companyName={element.company}
           description={element.description}
-          isActive={element.active}
+          startDate={element.startDate}
+          endDate={element.endDate}
         />
       ))}
     </div>
